@@ -1,0 +1,44 @@
+
+body{
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+.container{
+	border: 1px solid #000;
+	width: 960px;
+	margin: 0 auto; 
+	height: 100%;
+
+	padding: 20px 10px;
+
+	background-image: url('../../ucp/img/background2.jpg');
+}
+header{
+	color: #fff;
+	display: flex;
+	justify-content: space-between
+}
+header h3{
+	font-weight: lighter;
+	font-size: 20px;
+	line-height: 70px;
+
+	color: #fff;
+}
+header .right h4, header .right span{
+	margin-top: 40px;
+}
+
+section{
+	margin-top: 50px;
+}
+
+table{
+	border-collapse: collapse;
+}
+td{
+	border: 1px solid #fff;
+}
